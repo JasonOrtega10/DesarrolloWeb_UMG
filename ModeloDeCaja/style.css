@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* GENERALES */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #9353F0;
+    align-items: center;
+}
+header{
+    background-color: #67C716;
+}
+nav{
+    background-color: white;  
+}
+p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.border1{
+    border: 2px solid black;
+}
+.border2{
+    border: 2px solid white;
+}
+section{
+    background-color: #F14E0C;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+/* FIN GENEREALES */
+
+
+#header1{
+    margin: 1rem;
+    width: 90%;
+    height: 7rem;
+}
+#header2{
+    margin: 1rem;
+    width: 90%;
+    height: 2.5rem;
+}
+#header3{
+    margin: 1rem;
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 5px;
+}
+#nav1{
+    margin: 1rem;
+    height: 2.5rem;
+}
+#aside{
+    display: inline-block;
+    width: 35%;
+    margin: 1rem;
+    height: 2.5rem;
+    background-color: white;
+}
+@media (max-width: 768px) {
+    .sec1{
+        width: 40%;
+        height: 450px;
+        margin: 1rem;
+    }
+    .sec2{
+        width: 40%;
+        height: 300px;
+        margin: 1rem;
+    }  
+}
+.sec1{
+    width: 90%;
+    height: 450px;
+    margin: 1rem;
+}
+.sec2{
+    width: 90%;
+    height: 300px;
+    margin: 1rem;
+}
+article{
+    width: 90%;
+    height: 325px;
+    background-color: #0ACAE1;
+    margin: 1rem;
+}
+#para1{
+    background-color: orange;
+    width: 90%;
+    height: 2.5rem;
+    margin: 1rem;
+}
+#para2{
+    background-color: orange;
+    display: inline-block;
+    width: 40%;
+    height: 2.5rem;
+    margin: 1rem;
+}
+
+#nav{
+    width: 90%;
+    margin: 1rem;
+    height: 60%;
+}
+footer{
+    background-color: white;
+    width: 90%;
+    height: 2.5rem;
+    margin: 1rem;
+}
